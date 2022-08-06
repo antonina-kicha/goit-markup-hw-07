@@ -209,7 +209,7 @@ HEADER
 
 .sectoin-work,
 .section-team,
-.last-section {
+.section-clients--last {
   padding-bottom: 94px;
 }
 
@@ -612,11 +612,15 @@ SECTION  "КОМАНДА"
 /* ===============================================
 SECTION  "ПОСТОЯННЫЕ КЛИЕНТЫ"
 ================================================== */
-.list-clients {
+.section-clients__title {
+  margin-bottom: 50px;
+}
+
+.section-clients__list {
   display: flex;
   gap: 30px;
 }
-.link-client {
+.section-clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -628,11 +632,11 @@ SECTION  "ПОСТОЯННЫЕ КЛИЕНТЫ"
 
   transition: color var(--animation), border-color var(--animation);
 }
-.client-logo {
+.section-clients__logo {
   fill: currentColor;
 }
-.link-client:hover,
-.link-client:focus {
+.section-clients__link:hover,
+.section-clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -702,21 +706,21 @@ FOOTER
   color: #ffffff;
 }
 
-.footer__follow .socialmedia-list__link {
+.socialmedia-list__link--on-bckgr {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: color var(--animation), background-color var(--animation);
 }
-.footer__follow .socialmedia-list__link:hover,
-.footer__follow .socialmedia-list__link:focus {
+.socialmedia-list__link--on-bckgr :hover,
+.socialmedia-list__link--on-bckgr :focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 .subscribe-form {
   display: flex;
 }
-.subscribe-field {
+.subscribe-form__field {
   display: inline-block;
   width: 358px;
   margin-right: 12px;
@@ -739,26 +743,22 @@ FOOTER
 
   transition: border-color var(--animation);
 }
-
-.subscribe-field:focus {
+.subscribe-form__field:focus {
   border-color: var(--accent-color);
   outline: transparent;
 }
-.subscribe-btn {
+.subscribe-form__btn {
   display: inline-flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 
   padding: 10px 28px 10px 29px;
-  margin-top: 0;
 }
-.subscribe-icon {
+.subscribe-form__icon {
   fill: var(--text-on-background);
 }
-.subscribe-form {
-  display: flex;
-}
+
 /* ===============================================
 СТРАНИЦА PORTFOILIO
 ================================================== */
