@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -8,13 +8,13 @@
   --width-container: 1200px;
 
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* ===============================================
 ЧАСТИЧНЫЙ СБРОС СТИЛЕЙ
 ================================================== */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -36,31 +36,31 @@ p {
 img {
   display: block;
   max-width: 100%;
-}
+} */
 
 /* ===============================================
 БАЗОВЫЕ СТИЛИ
 ================================================== */
 
-body {
+/* body {
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-}
+} */
 
-.container {
+/* .container {
   width: var(--width-container);
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.link {
+/* .link {
   color: var(--title-text-color);
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -72,13 +72,13 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* ===============================================
 LOGO
 ================================================== */
 
-.logo,
+/* .logo,
 .logo:hover,
 .logo:focus {
   color: #000000;
@@ -93,13 +93,13 @@ LOGO
 .logo__accent:hover,
 .logo__accent:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ===============================================
 HEADER
 ================================================== */
 
-.header__container {
+/* .header__container {
   display: flex;
   align-items: center;
 }
@@ -187,16 +187,15 @@ HEADER
 }
 .nav-contact__icon {
   fill: currentColor;
-}
+} */
 /* ===============================================
 ОБЩЕЕ ДЛЯ СЕКЦИЙ
 ================================================== */
-.section {
+/* .section {
   padding-top: 94px;
-}
+} */
 
-.section-title {
-  /* margin-bottom: 50px; */
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -205,15 +204,9 @@ HEADER
 }
 .subtitle {
   color: var(--title-text-color);
-}
+} */
 
-.sectoin-work,
-.section-team,
-.section-clients--last {
-  padding-bottom: 94px;
-}
-
-.btn {
+/* .btn {
   border: none;
   border-radius: 4px;
 
@@ -233,13 +226,13 @@ HEADER
 .btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ===============================================
 Общее оформление иконок соцсетей
 ================================================== */
 
-.socialmedia-list {
+/* .socialmedia-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,13 +256,13 @@ HEADER
 }
 .socialmedia-list__icon {
   fill: currentColor;
-}
+} */
 
 /* ===============================================
 HERO
 ================================================== */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/imagesmain/hero.jpg);
   background-color: #c4c4c4;
@@ -301,11 +294,11 @@ HERO
   display: inline-block;
   padding: 10px 32px;
   margin-top: 30px;
-}
+} */
 /* ===============================================
 МОДАЛЬНОЕ ОКНО
 ================================================== */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -363,8 +356,8 @@ HERO
 .modal__close-btn:hover,
 .modal__close-btn:focus {
   fill: var(--accent-color);
-}
-.modal__title {
+} */
+/* .modal__title {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 20px;
@@ -441,9 +434,6 @@ HERO
   left: 12px;
 }
 .modal__checkbox {
-  /* flex-direction: row;
-  align-items: center; */
-
   margin-top: 20px;
   margin-bottom: 0;
   padding-left: 12px;
@@ -495,12 +485,12 @@ HERO
   padding: 10px 55px 10px 56px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ===============================================
 SECTION  "ПРЕИМУЩЕСТВА"
 ================================================== */
-.section-benefits {
+/* .section-benefits {
   font-size: 14px;
 }
 .section-benefits__list {
@@ -534,22 +524,25 @@ SECTION  "ПРЕИМУЩЕСТВА"
 }
 .section-benefits__desc {
   line-height: 1.72;
-}
+} */
 
 /* ===============================================
 SECTION  "ЧЕМ ЗАНИМАЕМСЯ"
 ================================================== */
-.sectoin-work__section-title {
+/* .section-work {
+  padding-bottom: 94px;
+}
+.section-work__section-title {
   margin-bottom: 50px;
 }
-.sectoin-work__list {
+.section-work__list {
   display: flex;
   gap: 30px;
 }
-.sectoin-work__item {
+.section-work__item {
   position: relative;
 }
-.sectoin-work__desc {
+.section-work__desc {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -567,14 +560,15 @@ SECTION  "ЧЕМ ЗАНИМАЕМСЯ"
 
   color: var(--text-on-background);
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* ===============================================
 SECTION  "КОМАНДА"
 ================================================== */
 
-.section-team {
+/* .section-team {
   background-color: var(--background-color);
+  padding-bottom: 94px;
 }
 .section-team__section-title {
   margin-bottom: 50px;
@@ -607,11 +601,14 @@ SECTION  "КОМАНДА"
 }
 .section-team__desc {
   font-weight: 400;
-}
+} */
 
 /* ===============================================
 SECTION  "ПОСТОЯННЫЕ КЛИЕНТЫ"
 ================================================== */
+/* .section-clients--last {
+  padding-bottom: 94px;
+}
 .section-clients__title {
   margin-bottom: 50px;
 }
@@ -639,13 +636,13 @@ SECTION  "ПОСТОЯННЫЕ КЛИЕНТЫ"
 .section-clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
-}
+} */
 
 /* ===============================================
 FOOTER
 ================================================== */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -757,12 +754,12 @@ FOOTER
 }
 .subscribe-form__icon {
   fill: var(--text-on-background);
-}
+} */
 
 /* ===============================================
 СТРАНИЦА PORTFOILIO
 ================================================== */
-.header-line {
+/* .header-line {
   border-bottom: 1px solid #ececec;
 }
 
@@ -867,4 +864,4 @@ FOOTER
 
 .worklist-list .item:hover .overlay {
   transform: translateY(0);
-}
+} */
